@@ -41,6 +41,7 @@ public class EVA1_6_PELICULA {
          
          System.out.print("Intodusca la Duracion");
          Duracion = captu.nextInt();
+         captu.nextLine();
          
          System.out.print("Introdusca el reparto");
          Reparto = captu.nextLine();
@@ -49,5 +50,11 @@ public class EVA1_6_PELICULA {
          Clasificacion = captu.nextLine();
          
          //Imprimimos
+         System.out.print("Imprecion de datos");
+         System.out.print(Nombre);
+         System.out.print(Genero);
+         System.out.print(Duracion);
+         System.out.print(Reparto);
+         System.out.print(Clasificacion);
                  }
 }
